@@ -20,14 +20,14 @@
       <uniqueVersion>false</uniqueVersion>
       <id>nba-app-releases</id>
       <name>nba-app-releases</name>
-      <url>http://ec2-18-191-110-174.us-east-2.compute.amazonaws.com:8081/repository/nba-app-releases/</url>
+      <url>http://ip-172-31-21-48.us-east-2.compute.internal:8081/repository/nba-app-releases/</url>
       <layout>default</layout>
     </repository>
     <snapshotRepository>
       <uniqueVersion>true</uniqueVersion>
       <id>nba-app-snapshots</id>
       <name>nba-app-snapshots</name>
-      <url>http://ec2-18-191-110-174.us-east-2.compute.amazonaws.com:8081/repository/nba-app-snapshots/</url>
+      <url>http://ip-172-31-21-48.us-east-2.compute.internal:8081/repository/nba-app-snapshots/</url>
       <layout>legacy</layout>
     </snapshotRepository>
   </distributionManagement>
