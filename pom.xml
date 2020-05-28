@@ -15,4 +15,20 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <distributionManagement>
+    <repository>
+      <uniqueVersion>false</uniqueVersion>
+      <id>corp1</id>
+      <name>nba-app-releases</name>
+      <url>http://ec2-18-191-110-174.us-east-2.compute.amazonaws.com:8081/repository/nba-app-releases/</url>
+      <layout>default</layout>
+    </repository>
+    <snapshotRepository>
+      <uniqueVersion>true</uniqueVersion>
+      <id>propSnap</id>
+      <name>nba-app-snapshots</name>
+      <url>http://ec2-18-191-110-174.us-east-2.compute.amazonaws.com:8081/repository/nba-app-snapshots/</url>
+      <layout>legacy</layout>
+    </snapshotRepository
+  </distributionManagement
 </project>
